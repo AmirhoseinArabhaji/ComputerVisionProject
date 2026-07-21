@@ -1,0 +1,66 @@
+.idea
+.venv
+.ipynb_checkpoints/
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# PyInstaller
+*.manifest
+*.spec
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+.vscode/
+.claude/
+google-landmark-dataset/
+.env
+
+# Local data and model artifacts
+osv5m/osv5m_italy_dataset/
+**/checkpoints/
+checkpoints_*/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Generated archives and packaged data
+*.zip
+*.tar
+*.tgz
+*.gz
+
+# Notebook and experiment runtime clutter
+*.ipynb_checkpoints
+
+# Generated benchmark outputs
+benchmarking/benchmark_results/
+
+# LaTeX / presentation build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+presentation/*.pdf
+presentation/*.synctex.gz
+report_template/*.pdf
+report_template/*.synctex.gz
+
+# Paper copies and other reference PDFs are kept out of the public repo
+papers/*.pdf
+presentation_slides.pdf
